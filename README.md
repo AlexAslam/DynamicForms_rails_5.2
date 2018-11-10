@@ -6,19 +6,10 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+	ruby '2.3.1'
 
-* System dependencies
+* Rails version
+	rails '5.2.0'
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Description:
+ it is a simple example of complex or nested fields, most of the time we need the sample code instead of searching web. so i made this sample code to help.
