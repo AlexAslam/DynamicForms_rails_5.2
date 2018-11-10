@@ -69,6 +69,6 @@ class ProductTypesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def product_type_params
-      params.require(:product_type).permit(:name)
+      params.require(:product_type).permit(:name, fields_attributes: [ :id, :name, :field_type,:required,:product_type_id ])
     end
 end
